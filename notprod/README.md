@@ -14,6 +14,7 @@
  
  $ ls
  tls.crt  tls.key
+```
 ## create a secret using the above crt
 ```
 kubectl create secret tls ingress-tls \
